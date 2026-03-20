@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rijan Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="media/logo.jpg" />
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#photos">Photography</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Rijan Manandhar</h1>
+      <p>Capturing stillness in motion — moments that speak quietly.</p>
+
+      <a href="media/Rijan - CV 2 (1).pdf" target="_blank" class="resume-btn">
+        View Resume
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="glass">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-desc">
+          A visual storyteller, a student and a Aspiring Frontend Developer |
+          Senior Data Entry & Education Analyst
+        </p>
+
+        <div class="about-container">
+          <img src="media/about/me1.jpg" />
+          <p>
+            My work explores urban minimalism and the quiet emotions hidden
+            within everyday spaces. Through each frame, I seek to create
+            stillness, reflection, and a subtle connection — revealing beauty in
+            moments that often go unnoticed.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section id="project">
+      <div class="glass">
+        <h2 class="section-title">Project</h2>
+        <p class="section-desc">A 2nd sem Project on a Business.</p>
+
+        <div class="featured-wrap">
+          <div class="featured-img">
+            <img src="media/project/project1.jpg" />
+          </div>
+          <div>
+            <h3>OUTREE</h3>
+            <p>
+              A series focused on quiet corners of busy cities — where movement
+              pauses and light takes over.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2 class="section-title center">Education</h2>
+      <p class="section-desc center">
+        My academic journey and learning experiences.
+      </p>
+
+      <div class="edu-wrapper">
+        <div class="edu-card2">
+          <h3>Bachelor in IT</h3>
+          <span>2024-Present</span>
+          <p>Lincoln International College of Management & IT</p>
+          <small>Putalisadak, Kathmandu</small>
+        </div>
+
+        <div class="edu-card2">
+          <h3>+2 in Science</h3>
+          <span>2022-2024</span>
+          <p>Nightingale International Secondary School</p>
+          <small>Kupondole, Lalitpur</small>
+        </div>
+
+        <div class="edu-card2">
+          <h3>School</h3>
+          <span>2022</span>
+          <p>Fluorescent Higher Secondary School</p>
+          <small>Baniyatar, Kathmandu</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOGRAPHY -->
+    <section id="photos">
+      <div class="glass">
+        <h2 class="section-title">Photography</h2>
+        <p class="section-desc">
+          A collection of moments — light, silence, and everyday city textures.
+          These frames are not staged, but discovered.
+        </p>
+
+        <div class="photo-grid">
+          <img src="media/photos/cat.jpg" />
+          <img src="media/photos/moon.jpg" />
+          <img src="media/photos/mountain.jpg" />
+          <img src="media/photos/temple.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="glass contact-box text-center w-full xl:w-[65%]">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-desc">
+          Open for collaborations, freelance work, or just a conversation.
+        </p>
+
+        <div class="contact-details lg:flex gap-0 lg:gap-7 !space-y-7 lg:!space-y-0">
+          <div class="w-full">
+            <form class="contact-form">
+              <div class="flex justify-start">Get in Touch</div>
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="4" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+
+          <div class="contact-info w-full ">
+            <div>
+              <div class="flex justify-start">Contact Information</div>
+
+              <div>
+                <p>
+                  <span>
+                    <strong>Email: </strong>
+                  </span>
+                  <span> manandharrijan8@gmail.com </span>
+                </p>
+                <p>
+                  <span>
+                    <strong>Phone: </strong>
+                  </span>
+                  <span> +977-9861590178 </span>
+                </p>
+                <p>
+                  <span>
+                    <strong>Location: </strong>
+                  </span>
+                  <span> Kirtipur, Nepal </span>
+                </p>
+              </div>
+
+              <div class="socials">
+                <a href="https://github.com/RizzzOnn" target="_blank">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  />
+                  GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/rijan-manandhar-072a02369/"
+                  target="_blank"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                  />
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("navLinks").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

@@ -474,3 +474,46 @@ section {
     padding-left: 10px;
   }
 }
+
+/* Make about section relative */
+#about .glass {
+  position: relative;
+}
+
+/* SOCIAL ICONS (TOP RIGHT) */
+.about-socials {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  display: flex;
+  gap: 10px;
+}
+
+/* ICON BUTTON */
+.about-socials a {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+
+  transition: 0.3s ease;
+}
+
+/* ICON SIZE */
+.about-socials img {
+  width: 18px;
+  height: 18px;
+}
+
+/* HOVER EFFECT 🔥 */
+.about-socials a:hover {
+  background: #00ffd5;
+  transform: scale(1.15);
+  box-shadow: 0 0 15px rgba(0,255,213,0.6);
+}
